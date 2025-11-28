@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt-Éire – Coming Soon</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+            background: linear-gradient(135deg, #6a8caf, #f0f0f0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .email-form input[type="email"] {
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 5px;
+            font-size: 1rem;
+        }
+
+        .email-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #2c3e50;
+            color: #fff;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .email-form button:hover {
+            background-color: #1a252f;
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        @media(max-width: 500px) {
+            .email-form input[type="email"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .email-form button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Alt-Éire</h1>
+        <p>Stories from around Ireland you won’t read anywhere else.<br>
+        Our website is currently under development, but we’ll be sharing curious, odd, and heartwarming tales very soon!</p>
+
+        <!-- Optional Email Signup -->
+        <form class="email-form" action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email to stay updated" required>
+            <button type="submit">Notify Me</button>
+        </form>
+
+        <footer>
+            &copy; 2025 Alt-Éire. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
